@@ -11,12 +11,12 @@
 
 <body>
     <header>
-        <div>
+        <div class="title-header">
             <i class="fa-solid fa-calculator"></i>
             <h1>Alexandra Marques</h1>
         </div>
 
-        <div>
+        <div class="links">
             <a href="">Início</a>
             <a href="">Serviços</a>
             <a href="">Sobre</a>
@@ -24,38 +24,43 @@
             <a href="">Contato</a>
         </div>
 
-        <div>
-            <p>(11) 99999-9999</p>
+        <div class="cta">
+            <p><i class="fa-solid fa-phone"></i> (11) 99999-9999</p>
             <a href="">Agendar Consulta</a>
         </div>
     </header>
 
     <main>
-        <div class="left-content">
-            <p>Contabilidade Inteligente</p>
-            <h1>Sua empresa merece uma contabilidade <span>estratégica</span></h1>
-            <p>Transformamos números em decisões. Assessoria contábil completa para impulsionar o crescimento do seu
-                negócio.
-            </p>
+        <div class="wrapper-main">
+            <div class="left-content">
+                <p class="title-main">Contabilidade Inteligente</p>
+                <h1>Sua empresa merece uma contabilidade <span>estratégica</span></h1>
+                <p class="description">Transformamos números em decisões. Assessoria contábil completa para impulsionar o crescimento do seu
+                    negócio.
+                </p>
 
-            <a href="">Fale conosco</a>
-            <a href="">Conheça nossos serviços</a>
-        </div>
-
-        <div class="right-content">
-            <div class="box-info">
-                <h3>+35%</h3>
-                <p>Crescimento</p>
+                <a href="">Fale conosco <i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="">Conheça nossos serviços</a>
             </div>
 
-            <div class="box-info">
-                <h3>100%</h3>
-                <p>Segurança</p>
-            </div>
+            <div class="right-content">
+                <div class="box-info">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <h3>+35%</h3>
+                    <p>Crescimento</p>
+                </div>
 
-            <div class="box-info">
-                <h3>15+</h3>
-                <p>Anos de Experiência</p>
+                <div class="box-info">
+                    <i class="fa-solid fa-shield"></i>
+                    <h3>100%</h3>
+                    <p>Segurança</p>
+                </div>
+
+                <div class="box-info">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>15+</h3>
+                    <p>Anos de Experiência</p>
+                </div>
             </div>
         </div>
     </main>
@@ -63,41 +68,47 @@
     <section>
         <div class="services">
             <div class="text-services">
-                <p>Nossos Serviços</p>
+                <p><span>Nossos Serviços</span></p>
                 <h2>Soluções completas para sua empresa</h2>
                 <p>Oferecemos uma gama completa de serviços contábeis para atender todas as necessidades do seu negócio.
                 </p>
             </div>
 
-            <div>
+            <div class="wrapper-services">
                 <div class="box-services">
+                    <i class="fa-solid fa-file-circle-check"></i>
                     <h3>Contabilidade Empresarial</h3>
                     <p>Gestão contábil completa para empresas de todos os portes, com relatórios precisos e atualizados.
                     </p>
                 </div>
 
                 <div class="box-services">
+                    <i class="fa-solid fa-people-group"></i>
                     <h3>Departamento Pessoal</h3>
                     <p>Folha de pagamento, admissões, rescisões e toda gestão de recursos humanos da sua empresa.</p>
                 </div>
 
                 <div class="box-services">
+                    <i class="fa-solid fa-chart-line"></i>
                     <h3>Planejamento Tributário</h3>
                     <p>Estratégias legais para reduzir a carga tributária e maximizar a rentabilidade do seu negócio.
                     </p>
                 </div>
 
                 <div class="box-services">
+                    <i class="fa-regular fa-building"></i>
                     <h3>Abertura de Empresas</h3>
                     <p>Assessoria completa para constituição, alteração e baixa de empresas em todo o Brasil.</p>
                 </div>
 
                 <div class="box-services">
+                    <i class="fa-regular fa-file"></i>
                     <h3>Consultoria Fiscal</h3>
                     <p>Análise e orientação sobre obrigações fiscais, evitando multas e autuações.</p>
                 </div>
 
                 <div class="box-services">
+                    <i class="fa-solid fa-calculator"></i>
                     <h3>BPO Financeiro</h3>
                     <p>Terceirização do departamento financeiro com controle de contas a pagar e receber.</p>
                 </div>
@@ -107,7 +118,7 @@
 
     <section>
         <div class="about-us">
-            <div class="left-content">
+            <div class="left-content-bills">
                 <img src="./assets/contas.png" alt="Contas">
 
                 <div>
@@ -116,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="right-content">
+            <div class="right-content-bills">
                 <p>Sobre Nós</p>
                 <h2>Mais de 15 anos transformando a gestão contábil</h2>
                 <p>Somos uma empresa de contabilidade moderna, comprometida em oferecer soluções inovadoras e
@@ -198,7 +209,8 @@
             <div class="left-content-contact">
                 <p>Contato</p>
                 <h2>Vamos conversar sobre seu negócio?</h2>
-                <p>Entre em contato conosco e descubra como podemos ajudar sua empresa a crescer com uma gestão contábil eficiente e estratégica.</p>
+                <p>Entre em contato conosco e descubra como podemos ajudar sua empresa a crescer com uma gestão contábil
+                    eficiente e estratégica.</p>
 
                 <div class="wrapper-info">
                     <div>
@@ -242,8 +254,8 @@
                     <input type="tel" placeholder="Telefone" required>
 
                     <p>Mensagem/p>
-                    <textarea rows="5" placeholder="Como podemos ajudar sua empresa?" required></textarea>
-                    <button type="submit">Enviar Mensagem</button>
+                        <textarea rows="5" placeholder="Como podemos ajudar sua empresa?" required></textarea>
+                        <button type="submit">Enviar Mensagem</button>
                 </form>
             </div>
         </div>
@@ -256,7 +268,7 @@
         </div>
 
         <div>
-           <h3>Serviços</h3>
+            <h3>Serviços</h3>
             <a href="">Contabilidade Empresarial</a>
             <a href="">Departamento Pessoal</a>
             <a href="">Planejamento Tributário</a>
