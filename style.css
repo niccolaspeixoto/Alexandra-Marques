@@ -504,7 +504,7 @@ media query
 */
 
 
-@media(min-width:375px) and (max-width:430px) {
+@media(min-width:300px) and (max-width:430px) {
 
 
     header {
@@ -538,6 +538,10 @@ media query
         justify-content: center;
         width: 100vw;
         height: 100vh;
+    }
+
+    .wrapper-main{
+        width: 100%;
     }
 
     .title-main {}
@@ -624,6 +628,7 @@ media query
 
     .left-content-contact{
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .info-contact{
