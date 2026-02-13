@@ -673,3 +673,178 @@ media query
         display: none;
     }
 }
+
+@media(min-width:500px) and (max-width:1100px){
+    header {
+        padding: 10px;
+        justify-content: space-around;
+        width: 100vw;
+    }
+
+    .wrapper-main{
+        flex-direction: column;
+    }
+
+    .title-header {}
+
+    .title-header i {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .cta p {
+        display: none;
+    }
+
+    .cta a {
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .wrapper-main{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .title-main {}
+
+    .left-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 100px 0 100px 0px;
+    }
+
+    .left-content h1 {
+        font-size: 45px;
+        text-align: center;
+        width: 100vw;
+        line-height: 45px;
+    }
+
+    .description {
+        width: 90vw;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .btn-main {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+
+    .right-content {
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .wrapper-services {
+        grid-template-columns:repeat(2, 50%);
+        margin: 20px;
+    }
+
+    .box-services {
+        width: 100%;
+    }
+
+    .about-us {
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .left-content-bills {
+        display: none;
+    }
+
+    .right-content-bills {
+        text-align: center;
+    }
+
+    .title-bills {
+        margin-bottom: 20px;
+    }
+
+    .right-content-bills h2{
+        margin-bottom: 15px;
+    }
+
+    .points p{
+        margin-top: 10px;
+        height: 120px;
+    }
+
+    .wrapper-feedback{
+        flex-direction: column;
+    }
+
+    .box-client{
+        width: 90vw;
+    }
+
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-content-contact{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .info-contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper-info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .wrapper-text{
+       width: 90vw;
+        text-align: left;
+    }
+
+    .contact-info p{
+        font-size: 14px;
+    }
+
+
+    .right-content-contact {
+        width: 90vw;
+        margin-left: 0px;
+    }
+
+    fomr{
+        height: auto;
+    }
+
+    .top-content-form, .bottom-content-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    footer{
+        display: none;
+    }
+}
