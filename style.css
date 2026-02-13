@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -363,6 +364,7 @@ main {
 .wrapper-text{
     display: flex;
     margin-bottom: 30px;
+    width: 300px;
 }
 
 .wrapper-text i{
@@ -376,6 +378,10 @@ main {
     height: 50px;
     width: 50px;
     border-radius: 10px;
+}
+
+.contact-info{
+    width: auto;
 }
 
 .right-content-contact{
