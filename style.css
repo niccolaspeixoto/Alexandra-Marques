@@ -854,3 +854,183 @@ media query
         display: none;
     }
 }
+
+@media(min-width:1200px) and (max-width:1600px){
+    header {
+        padding: 10px;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .wrapper-main{
+        flex-direction: column;
+    }
+
+    .title-header {}
+
+    .title-header i {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .links {
+    }
+
+    .cta p {
+        display: none;
+    }
+
+    .cta a {
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .wrapper-main{
+        width: 100%;
+    }
+
+    .title-main {}
+
+    .left-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .left-content h1 {
+        font-size: 45px;
+        text-align: center;
+        width: 100%;
+        line-height: 45px;
+    }
+
+    .description {
+        width: 90vw;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .btn-main {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        text-align: center;
+    }
+
+    .right-content {
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 100px;
+    }
+
+    .box-info{
+        width: 50%;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .wrapper-services {
+        grid-template-columns:repeat(2, 50%);
+        margin: 20px;
+    }
+
+    .box-services {
+        width: 100%;
+    }
+
+    .about-us {
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .left-content-bills {
+        display: none;
+    }
+
+    .right-content-bills {
+        text-align: center;
+    }
+
+    .title-bills {
+        margin-bottom: 20px;
+    }
+
+    .right-content-bills h2{
+        margin-bottom: 15px;
+    }
+
+    .points p{
+        margin-top: 10px;
+        height: 120px;
+    }
+
+    .wrapper-feedback{
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-client{
+        width: 90%;
+        max-height: 400px;
+    }
+
+    .contact{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left-content-contact{
+        margin-bottom: 20px;
+        width: 50%;
+        padding: 30px;
+    }
+
+    .info-contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper-info{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .wrapper-text{
+       width: 90vw;
+        text-align: left;
+    }
+
+    .contact-info p{
+        font-size: 14px;
+    }
+
+
+    .right-content-contact {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    form{
+        height: auto;
+    }
+
+    
+
+
+    
+}
